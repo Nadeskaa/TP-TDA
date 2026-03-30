@@ -12,7 +12,7 @@ def formatear_archivo_entrada():
     nombre_archivo = sys.argv[1]
 
     i = 0
-    with open(nombre_archivo, 'r') as f:,l]0
+    with open(nombre_archivo, 'r') as f:
  
         for linea in f[1:]:
             linea = linea.strip()
