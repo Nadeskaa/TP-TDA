@@ -5,41 +5,38 @@ import sys
 #!/usr/bin/env python3
 
 def formatear_archivo_entrada():
+
     if len(sys.argv) != 2:
         sys.exit(1)
     
-    res = []
+    rivales = []
     nombre_archivo = sys.argv[1]
 
-    i = 0
     with open(nombre_archivo, 'r') as f:
- 
-        for linea in f[1:]:
+
+        next(f)
+        for linea in f:
             linea = linea.strip()
-            if not linea:
+            if linea == "":
                 continue
+            s, a = map(int,linea.split(",")) #conversion directa a enteros
+            rival = [s, a]
 
-            a, b = linea.split(",")
-            rival = [int(a), int(b)]
-
-
-            ordenar_rivales(res, linea.split(","))
-    
-    return res
+            ordenar_rivales(rivales,rival)
+    return rivales
 
 
-
-
+'''Calcula tiempo total mínimo'''
 def analizar_rivales(rivales):
-    tiempo_individual = 0
+    tiempo_scaloni = 0
     tiempo_total = 0
-    for r in rivales:
-        tiempo_individual = rivales[0] + rivales[1]
-        if (tiempo_individual > tiempo_total):
-            tiempo_total = tiempo_individual
-            
-# Aqui analizaria scaloni y despues los ayudantes.
 
+    for s, a in rivales:
+        tiempo_scaloni += s
+        fin_rival = tiempo_scaloni + a
+
+        if fin_rival > tiempo_total:
+            tiempo_total = fin_rival
     return tiempo_total
     
 """
@@ -54,3 +51,14 @@ def ordenar_rivales(arr_rivales, rival):
         i += 1
 
     arr_rivales.insert(i, rival)
+
+
+def main():
+    rivales = formatear_archivo_entrada()
+    tiempo = analizar_rivales(rivales)
+
+    print("Orden de análisis:", rivales)
+    print("Tiempo total mínimo:", tiempo)
+
+if __name__ == "__main__":
+    main()
