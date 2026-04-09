@@ -57,7 +57,6 @@ def main():
     rivales = formatear_archivo_entrada()
     tiempo = analizar_rivales(rivales)
 
-    print("Orden de análisis:", rivales)
     print("Tiempo total mínimo:", tiempo)
 
 if __name__ == "__main__":
