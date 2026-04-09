@@ -4,9 +4,9 @@
 ## Descripción
 
 En este trabajo práctico se aborda el **diseño y análisis de algoritmos greedy**, una técnica clave en problemas de optimización.  
-El objetivo es ayudar a Scaloni a analizar los próximos `n` rivales de la selección campeona del mundo, de manera que el tiempo total necesario para completar todos los análisis sea **mínimo**.
+El objetivo es ayudar a Scaloni a analizar los próximos `$n$` rivales de la selección campeona del mundo, de manera que el tiempo total necesario para completar todos los análisis sea **mínimo**.
 
-Cada rival debe ser analizado primero por Scaloni (`si` minutos) y luego por un ayudante (`ai` minutos). Los ayudantes pueden trabajar **en paralelo**, siempre después de que Scaloni haya terminado su análisis.  
+Cada rival debe ser analizado primero por Scaloni (`$s_i$ `) y luego por un ayudante (`$a_i$`). Los ayudantes pueden trabajar **en paralelo**, siempre después de que Scaloni haya terminado su análisis.  
 
 El desafío consiste en:
 
