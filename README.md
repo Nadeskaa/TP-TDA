@@ -17,6 +17,7 @@ El desafío consiste en:
 ---
 
 ## Estructura del repositorio
+'''
 TP-TDA/
 ├─ tp1.py                 # Código principal con algoritmo greedy
 ├─ ayudantes mayor.txt     # Test case: ai >> si
@@ -25,7 +26,7 @@ TP-TDA/
 ├─ tiempos iguales.txt     # Test case: si == ai
 ├─ tiempos similares.txt   # Test case: ai ≈ si
 └─ README.md               # Este archivo
-
+'''
 ## Ejecución
 
 ```bash
