@@ -20,6 +20,7 @@ El desafío consiste en:
 ```
 TP-TDA/
 ├─ tp1.py                 # Código principal con algoritmo greedy
+├─ informe_TP1.pdf                 # Código principal con algoritmo greedy
 ├─ ayudantes mayor.txt     # Test case: ai >> si
 ├─ scaloni mayor.txt       # Test case: si >> ai
 ├─ soluciones optimas.txt  # Soluciones óptimas de ejemplo
