@@ -1,0 +1,16 @@
+a>>s (ayudantes mayor): 18850 	-> t_scaloni=40 			(video 25)
+				   t_ayudantes=18810      		(video 25)
+				   n=100
+
+a≈s (tiempos similares):5882 	-> suma_total_s=5865  
+				   t_ayudante=17 			(video 7)            
+				   n=100
+
+s>>a (scaloni mayor): 792397532 -> suma_total_s=792387393 
+				   t_ayudante=10139 			(video 20) 
+				   n=255
+
+s==a (tiempos iguales): 5288 	-> suma_total_s=5286 
+				   t_ayudante=2				(video 11)
+				   n=100
+
