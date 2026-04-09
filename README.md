@@ -19,8 +19,8 @@ El desafío consiste en:
 ## Estructura del repositorio
 ```
 TP-TDA/
-├─ tp1.py                 # Código principal con algoritmo greedy
-├─ informe_TP1.pdf                 # Código principal con algoritmo greedy
+├─ tp1.py                  # Código principal con algoritmo greedy
+├─ Informe_TP1.pdf         # Informe del TP1
 ├─ ayudantes mayor.txt     # Test case: ai >> si
 ├─ scaloni mayor.txt       # Test case: si >> ai
 ├─ soluciones optimas.txt  # Soluciones óptimas de ejemplo
