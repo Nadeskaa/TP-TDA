@@ -22,7 +22,8 @@ def formatear_archivo_entrada():
             s, a = map(int,linea.split(",")) #conversion directa a enteros
             rival = [s, a]
 
-            ordenar_rivales(rivales,rival)
+            rivales.sort(key=lambda x: x[1], reverse=True)
+
     return rivales
 
 
@@ -44,14 +45,6 @@ Ordena una lista de rivales en base a el tiempo de analisis del Ayudante, dejand
 lista de rivales ordenada de mayor a menor.
 """
 
-def ordenar_rivales(arr_rivales, rival):
-    i = 0
-
-    while i < len(arr_rivales) and arr_rivales[i][1] >= rival[1]:
-        i += 1
-
-    arr_rivales.insert(i, rival)
-
 
 def main():
     rivales = formatear_archivo_entrada()
@@ -61,3 +54,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+FUNCION DE ORDENAMIENTO IMPLEMENTADA EN PRIMERA INSTANCIA, CAMBIADA POR TENER UNA COMPLEJIDAD TEMPORAL NO DESEADA. 
+def ordenar_rivales(arr_rivales, rival):
+    i = 0
+
+    while i < len(arr_rivales) and arr_rivales[i][1] >= rival[1]:
+        i += 1
+
+    arr_rivales.insert(i, rival)
+"""
