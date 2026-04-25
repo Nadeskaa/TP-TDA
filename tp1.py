@@ -19,10 +19,11 @@ def formatear_archivo_entrada():
             linea = linea.strip()
             if linea == "":
                 continue
-            s, a = map(int,linea.split(",")) #conversion directa a enteros
+            s, a = map(int,linea.split(",")) 
             rival = [s, a]
+            rivales.append(rival)
+        rivales.sort(key=lambda x: x[1], reverse=True)
 
-            ordenar_rivales(rivales,rival)
     return rivales
 
 
@@ -44,6 +45,20 @@ Ordena una lista de rivales en base a el tiempo de analisis del Ayudante, dejand
 lista de rivales ordenada de mayor a menor.
 """
 
+
+def main():
+    rivales = formatear_archivo_entrada()
+    tiempo = analizar_rivales(rivales)
+
+
+    print("Tiempo total mínimo:", tiempo)
+
+if __name__ == "__main__":
+    main()
+
+
+"""
+FUNCION DE ORDENAMIENTO IMPLEMENTADA EN PRIMERA INSTANCIA, CAMBIADA POR TENER UNA COMPLEJIDAD TEMPORAL NO DESEADA. 
 def ordenar_rivales(arr_rivales, rival):
     i = 0
 
@@ -51,13 +66,4 @@ def ordenar_rivales(arr_rivales, rival):
         i += 1
 
     arr_rivales.insert(i, rival)
-
-
-def main():
-    rivales = formatear_archivo_entrada()
-    tiempo = analizar_rivales(rivales)
-
-    print("Tiempo total mínimo:", tiempo)
-
-if __name__ == "__main__":
-    main()
+"""
