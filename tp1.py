@@ -19,10 +19,10 @@ def formatear_archivo_entrada():
             linea = linea.strip()
             if linea == "":
                 continue
-            s, a = map(int,linea.split(",")) #conversion directa a enteros
+            s, a = map(int,linea.split(",")) 
             rival = [s, a]
-
-            rivales.sort(key=lambda x: x[1], reverse=True)
+            rivales.append(rival)
+        rivales.sort(key=lambda x: x[1], reverse=True)
 
     return rivales
 
@@ -49,6 +49,7 @@ lista de rivales ordenada de mayor a menor.
 def main():
     rivales = formatear_archivo_entrada()
     tiempo = analizar_rivales(rivales)
+
 
     print("Tiempo total mínimo:", tiempo)
 
