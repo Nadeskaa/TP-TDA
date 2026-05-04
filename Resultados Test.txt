@@ -1,0 +1,27 @@
+siempre_entrenar.txt
+Ganancia maxima: 27
+Plan de entrenamiento: Entreno, Entreno, Entreno
+
+descanso_frecuente.txt
+Ganancia maxima: 30
+Plan de entrenamiento: Entreno, Descanso, Entreno, Descanso, Entreno
+
+energia_siempre_mayor.txt
+Ganancia maxima: 37
+Plan de entrenamiento: Entreno, Entreno, Entreno, Entreno, Entreno
+
+energia_cae_rapido.txt
+Ganancia maxima: 24
+Plan de entrenamiento: Entreno, Descanso, Entreno, Descanso, Entreno
+
+mixto.txt
+Ganancia maxima: 47
+Plan de entrenamiento: Entreno, Entreno, Descanso, Entreno, Entreno, Entreno, Descanso, Entreno, Entreno, Entreno
+
+ganancias_crecientes.txt
+Ganancia maxima: 11
+Plan de entrenamiento: Entreno, Entreno, Entreno, Descanso, Entreno
+
+energia_muy_baja.txt
+Ganancia maxima: 3
+Plan de entrenamiento: Entreno, Entreno, Entreno
