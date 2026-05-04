@@ -1,4 +1,4 @@
-# implementacion_tp2
+# Implementacion_tp2
 ## Descripción
 Trabajo práctico de Programación Dinámica enfocado en resolver un problema de optimización.
 Se busca maximizar la ganancia total de un plan de entrenamiento de n días para la selección, decidiendo en qué días conviene entrenar o descansar. Cada día tiene una ganancia potencial, pero la energía de los jugadores disminuye al entrenar días consecutivos y se recupera al descansar.
