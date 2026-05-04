@@ -15,7 +15,7 @@ TP-TDA/
 ├─ ganancia_creciente.txt     # Test
 ├─ mixto.txt                  # Test 
 ├─ energia_muy_baja.txt       # Test 
-├─ Resultados Test.txt        # Test 
+├─ Resultados Test.txt        # Resultados Tests
 └─ README.md                  # Este archivo
 ```
 
