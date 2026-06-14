@@ -1,21 +1,30 @@
-# Implementacion_tp2
+# Implementacion_tp3
 ## Descripción
-Trabajo práctico de Programación Dinámica enfocado en resolver un problema de optimización.
-Se busca maximizar la ganancia total de un plan de entrenamiento de n días para la selección, decidiendo en qué días conviene entrenar o descansar. Cada día tiene una ganancia potencial, pero la energía de los jugadores disminuye al entrenar días consecutivos y se recupera al descansar.
-Se desarrolla una solución mediante Programación Dinámica, incluyendo formulación de recurrencia, demostración de correctitud, reconstrucción de solución óptima y análisis de complejidad.
+Este trabajo práctico implementa una solución exacta al problema de **Hitting Set**, un problema NP-Completo, utilizando un algoritmo de **backtracking** con poda.
+
+Dado un conjunto de elementos (jugadores) y una colección de subconjuntos (pedidos de la prensa), el objetivo es encontrar el subconjunto mínimo de jugadores que intersecta a todos los conjuntos.
+
+El algoritmo explora todas las combinaciones posibles de selección de jugadores, utilizando una estrategia de backtracking para construir soluciones parciales y una poda basada en la mejor solución encontrada hasta el momento para reducir el espacio de búsqueda.
+
+Además, se realizan mediciones de tiempo sobre distintas instancias de prueba para analizar el comportamiento exponencial del algoritmo en función del tamaño de la entrada.
 
 ## Estructura del repositorio
 ```
 TP-TDA/
-├─ tp2.py                     # Código principal
-├─ Informe_TP2.pdf            # Informe del TP2
-├─ descanso_frecuente.txt     # Test
-├─ energia_baja_rapido.txt    # Test 
-├─ energia_siempre_mayor.txt  # Test
-├─ ganancia_creciente.txt     # Test
-├─ mixto.txt                  # Test 
-├─ energia_muy_baja.txt       # Test 
-├─ Resultados Test.txt        # Resultados Tests
+├─ tp3.py                     # Código principal
+├─ Informe_TP3.pdf            # Informe del TP2
+├─ 5.txt                      # Test
+├─ 10_pocos.txt               # Test 
+├─ 7.txt                      # Test
+├─ 10_todos.txt               # Test
+├─ 10_varios.txt              # Test 
+├─ 15.txt                     # Test 
+├─ 20.tx                      # Test
+├─ 50.txt                     # Test
+├─ 75.txt                     # Test 
+├─ 100.txt                    # Test 
+├─ 200.txt                      # Test
+├─ Resultados Esperados.txt        # Resultados Tests
 └─ README.md                  # Este archivo
 ```
 
