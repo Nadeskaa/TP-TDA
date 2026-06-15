@@ -1,0 +1,15 @@
+Gallardo,Wachoffisde,Musso
+Mauro Zarate,Tucu Pereyra,Rulli 
+Abila,Beltran,Montiel
+Di Maria,Pity Martinez,Balerdi
+Cuti Romero,Luka Romero,Tagliafico 
+Riquelme,Colo Barco,Medina
+Simeone,Messi,Lo Celso
+Pezzella,Dibu,Paredes
+Palermo,Changuito Zeballos,Mac Allister
+Buendia,Colidio,Almada 
+Burrito Ortega,Casco,Nico Paz
+Chiquito Romero,Soule,Alvarez 
+Dybala,Gonzalez,Maradona 
+Lopez,Martinez,Ruggeri
+De Paul,Palacios,Burruchaga
