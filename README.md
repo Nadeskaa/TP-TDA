@@ -13,18 +13,13 @@ Además, se realizan mediciones de tiempo sobre distintas instancias de prueba p
 TP-TDA/
 ├─ tp3.py                     # Código principal
 ├─ Informe_TP3.pdf            # Informe del TP2
-├─ 5.txt                      # Test
-├─ 10_pocos.txt               # Test 
-├─ 7.txt                      # Test
-├─ 10_todos.txt               # Test
-├─ 10_varios.txt              # Test 
-├─ 15.txt                     # Test 
-├─ 20.tx                      # Test
-├─ 50.txt                     # Test
-├─ 75.txt                     # Test 
-├─ 100.txt                    # Test 
-├─ 200.txt                      # Test
-├─ Resultados Esperados.txt        # Resultados Tests
+├─ util.py                    # Código
+├─ backtracking.txt           # Código Backtraking 
+├─ carga_archivo.txt          # Código carga de archivo txt 
+├─ sets                       # sets
+├─ correctitud                # Test Cátedra
+├─ mediciones                 # Mediciones Realizadas 
+├─ Resultados Esperados.txt   # Resultados Tests
 └─ README.md                  # Este archivo
 ```
 
